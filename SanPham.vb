@@ -273,13 +273,13 @@ Public Class SanPham
         End If
     End Sub
 
-    Private Sub Delete_2_Click(sender As Object, e As EventArgs) Handles Button_Delete.Click
+    Private Sub Delete_2_Click(sender As Object, e As EventArgs) Handles deLSP.Click
         Dim MySQLConnection As New MySqlConnection("server = sql6.freesqldatabase.com;user=sql6131349;password=u6VvdQXKcV;database=sql6131349")
         Dim reader As MySqlDataReader
         Try
             MySQLConnection.Open()
             Dim Query As String
-            Query = "delete from sql6131349.san_pham where MaSP= '" & MSP.Text & "' "
+            Query = "delete from sql6131349.loai_sp  where Ma_Loai_SP = '" & TextBox_Ma_Loai_SP.Text & "'"
             Dim command As New MySqlCommand(Query, MySQLConnection)
             reader = command.ExecuteReader
             MessageBox.Show("Delete Success or MaSP not exist")
