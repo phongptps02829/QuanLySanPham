@@ -12,3 +12,18 @@ E:\Assigment\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.vbproj.Generate
 E:\Assigment\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.exe
 E:\Assigment\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.xml
 E:\Assigment\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.pdb
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.vbprojResolveAssemblyReference.cache
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.KH.resources
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.SanPham.resources
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.Form1.resources
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.Resources.resources
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.vbproj.GenerateResource.Cache
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\bin\Debug\QuanLySanPham.exe.config
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\bin\Debug\QuanLySanPham.exe
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\bin\Debug\QuanLySanPham.pdb
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\bin\Debug\QuanLySanPham.xml
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\bin\Debug\MySql.Data.dll
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\bin\Debug\MySql.Data.xml
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.exe
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.xml
+C:\Users\Windows 10 TIMT\Desktop\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.pdb

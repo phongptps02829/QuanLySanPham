@@ -146,7 +146,7 @@ Public Class KH
                 Else
                     MySQLConnection.Open()
                     Dim Query As String
-                    Query = "update sql6131349.khach_hang set TenKH ='" & TextMaKH.Text & "', MST = '" & TextMST.Text & "', DiaChi = '" & TextBoxDC.Text & "',SDT = '" & TextBoxSDT.Text & "'  where MaKH = '" & Convert.ToInt32(TextMaKH.Text) & "' "
+                    Query = "update sql6131349.khach_hang set TenKH ='" & TextTKH.Text & "', MST = '" & TextMST.Text & "', DiaChi = '" & TextBoxDC.Text & "',SDT = '" & TextBoxSDT.Text & "'  where MaKH = '" & Convert.ToInt32(TextMaKH.Text) & "' "
                     Dim command As New MySqlCommand(Query, MySQLConnection)
                     reader = command.ExecuteReader
                     MessageBox.Show("Update thành công! Hoac du lieu cua ban khong co trong csdl")
@@ -178,16 +178,16 @@ Public Class KH
         Form1.Show()
         Me.Hide()
     End Sub
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataKH.CellContentClick
         If e.RowIndex >= 0 Then
             Dim row As DataGridViewRow
             row = Me.DataKH.Rows(e.RowIndex)
 
-            TextMaKH.Text = row.Cells("MaSP").Value.ToString
-            TextTKH.Text = row.Cells("MaSP").Value.ToString
-            TextMST.Text = row.Cells("MaSP").Value.ToString
-            TextBoxDC.Text = row.Cells("MaSP").Value.ToString
-            TextBoxSDT.Text = row.Cells("MaSP").Value.ToString
+            TextMaKH.Text = row.Cells("MaKH").Value.ToString
+            TextTKH.Text = row.Cells("TenKH").Value.ToString
+            TextMST.Text = row.Cells("MST").Value.ToString
+            TextBoxDC.Text = row.Cells("DiaChi").Value.ToString
+            TextBoxSDT.Text = row.Cells("SDT").Value.ToString
 
         End If
     End Sub
